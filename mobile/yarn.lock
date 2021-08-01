@@ -3602,12 +3602,18 @@ expo-location@~11.0.0:
   dependencies:
     "@expo/config-plugins" "~1.0.13"
 
-expo-mail-composer@~10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/expo-mail-composer/-/expo-mail-composer-10.0.0.tgz#3b29b0762cbbc8c979c428115a0aa003c2aee449"
-  integrity sha512-T0Y1Cps6g6icAi/SUux85YAJQRjtWtYhI2aIuyHc/VvAthoPPbcqcH4OmgzfR8FuMLu8YW8gtT2Sgd20MIRavw==
+expo-mail-composer@~10.2.2:
+  version "10.2.2"
+  resolved "https://registry.yarnpkg.com/expo-mail-composer/-/expo-mail-composer-10.2.2.tgz#b574931aa4e8608abbc2a60d505bf51d3589bb66"
+  integrity sha512-jvIDMWgHRj4f2oD4kg5rb/rSZKatQ2Bo/U7PlUU3T/QudngAcSzE6BBWYQhTVP1sLoBGSkoDTLlxGOKQQS1JUg==
   dependencies:
+    expo-modules-core "~0.2.0"
     query-string "^6.2.0"
+
+expo-modules-core@~0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-0.2.0.tgz#68e5b6e53d0afbf8d131578831aed657589a2d42"
+  integrity sha512-inpfZ5X/BaTtbj2wG9PA9AC0MN8VyId6KSRlVuEg7+ziurHBy/kKDFxpOddUokhwiln2uhoYPSStJjR/tKypdw==
 
 expo-permissions@~10.0.0:
   version "10.0.0"
